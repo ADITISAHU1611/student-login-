@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Login Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="login1">
+        <h1>Login</h1>
+	<form action="/auth" method="post">
+  	<!-- user input-->
+      <label for="username">
+        <!-- font awesome icon -->
+        <i class="fas fa-user"></i>
+    </label>
+  	
+  	<input type="text" name="username" placeholder="Username" ><br><br>
+      <label for="password">
+        <!-- font awesome icon -->
+        <i class="fas fa-lock"></i>
+    </label>
+  	<input type="password" name="password" placeholder="Password" ><br><br>
+  	<!-- submit button -->
+  	<input type="submit" value="Login">
+	</form>
+    </div>
+  </body>
+</html>
